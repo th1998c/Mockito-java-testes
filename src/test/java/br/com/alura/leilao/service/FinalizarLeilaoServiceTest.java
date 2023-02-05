@@ -68,7 +68,7 @@ class FinalizarLeilaoServiceTest {
         } catch (Exception e) {}
     }
 
-    private List<Leilao> leiloes () {
+    private List<Leilao> leiloes() {
         List<Leilao> leiloes = new ArrayList<>();
 
         var leilao = new Leilao("Celular", new BigDecimal(500), new Usuario("Fulano"));
